@@ -1,7 +1,9 @@
-.p {
+body {
     font-family: 'Dancing Script', cursive;
 }
 
-body {
-    font-family: 'Dancing Script', cursive;
+.wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-auto-rows: 200px;
 }
